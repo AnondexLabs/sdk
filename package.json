@@ -1,0 +1,20 @@
+{
+  "name": "@anondex/core",
+  "version": "0.1.0",
+  "description": "Privacy-first execution layer protecting executor identity",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
